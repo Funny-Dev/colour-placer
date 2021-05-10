@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColourPlacer.UserInterface", "ColourPlacer.UserInterface\ColourPlacer.UserInterface.csproj", "{D03BEE6F-D351-48A0-86DD-DD4ACC1AE9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColourPlacer.Logic", "ColourPlacer.Logic\ColourPlacer.Logic.csproj", "{7EFCF10D-513F-4D32-AA2C-C599C944672F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D03BEE6F-D351-48A0-86DD-DD4ACC1AE9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03BEE6F-D351-48A0-86DD-DD4ACC1AE9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03BEE6F-D351-48A0-86DD-DD4ACC1AE9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03BEE6F-D351-48A0-86DD-DD4ACC1AE9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFCF10D-513F-4D32-AA2C-C599C944672F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFCF10D-513F-4D32-AA2C-C599C944672F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFCF10D-513F-4D32-AA2C-C599C944672F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFCF10D-513F-4D32-AA2C-C599C944672F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
